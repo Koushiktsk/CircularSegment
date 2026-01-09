@@ -82,19 +82,19 @@ This section presents the key evaluation metrics and visual insights derived fro
 
 This plot shows the training and validation accuracy across epochs. A steady rise and convergence between both lines indicate that the model has learned relevant features and is generalizing well without overfitting.
 
-![Accuracy Curve CircSeg](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/CircularSegmentation/main/Accuracy%20Curve%20CircSeg.png)
+![Accuracy Curve CircSeg](https://github.com/Koushiktsk/CircularSegment/blob/main/Screenshot%202026-01-10%20013933.png)
 
 ### Loss Curve
 
 Displays training and validation loss values. The decreasing trend with stabilization reflects successful model optimization using Dice loss, which is suitable for handling class imbalance in segmentation tasks.
 
-![Loss Curve CircSeg](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/CircularSegmentation/main/Loss%20Curve%20CircSeg.png)
+![Loss Curve CircSeg](https://github.com/Koushiktsk/CircularSegment/blob/main/Screenshot%202026-01-10%20013919.png)
 
 ### Confusion Matrix (Pixel Level)
 
 This matrix gives a pixel-level classification breakdown of true positives, false positives, true negatives, and false negatives. The strong diagonal presence highlights good prediction fidelity.
 
-![Confusion Matrix CircSeg](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/CircularSegmentation/main/Confusion%20Matrix%20CircSeg.png)
+![Confusion Matrix CircSeg](https://github.com/Koushiktsk/CircularSegment/blob/main/Screenshot%202026-01-10%20013946.png)
 
 ###  Mask and Circle Visualization
 
@@ -106,5 +106,5 @@ Visual comparison of the original grayscale image, ground-truth mask, predicted 
 
 Illustrates the model’s ability to distinguish foreground (circle) vs. background at various thresholds. The high AUC (Area Under Curve) confirms robust pixel-wise discrimination and confident predictions.
 
-![ROC Curve CircSeg](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/CircularSegmentation/main/ROC%20Curve%20CircSeg.png)
+![ROC Curve CircSeg](https://github.com/Koushiktsk/CircularSegment/blob/main/Screenshot%202026-01-10%20013956.png)
 
