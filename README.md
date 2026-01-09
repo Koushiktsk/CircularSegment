@@ -100,7 +100,7 @@ This matrix gives a pixel-level classification breakdown of true positives, fals
 
 Visual comparison of the original grayscale image, ground-truth mask, predicted circle mask, and extracted geometric circle overlays. This qualitative analysis validates the model’s ability to correctly localize and parameterize circular regions.
 
-![Mask and Circle Visualization CircSeg](https://raw.githubusercontent.com/yuvrajtiwary-bitmesraece/CircularSegmentation/main/Mask%20and%20Circle%20Visualization%20CircSeg.png)
+![Mask and Circle Visualization CircSeg](https://github.com/Koushiktsk/CircularSegment/blob/main/Screenshot%202026-01-10%20015229.png)
 
 ### ROC Curve
 
